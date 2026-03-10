@@ -204,7 +204,7 @@ def test_numba():
             )
 
     np.savez(
-        "./classic_traj/data/ngpdwgamac2-nI201nt12800_prob.npz",
+        "./data/ngpdwgamac2-nI201nt12800_prob.npz",
         time=model.ts,
         ampi=amp_i,
         amptotal=amp_total
